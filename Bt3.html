@@ -1,0 +1,45 @@
+<html>
+<body>
+    <fieldset>
+    <legend>General Information</legend>
+      <label for="Arrival date">Arrival date:</label>
+      <input type="text" id="Arrival date" name="Arrival date"/> <br/>
+      <label for="Nights">Nights:</label>
+      <input type="text" id="Nights" name="Nights"/> <br/>
+     Adults:  
+        <select name="Adults"> 
+        <option value="1">1</option> 
+        <option value="2">2</option> 
+        <option value="3">3</option> 
+        </select> <br>
+    Children:  
+        <select name="Children"> 
+        <option  select value="">0</option>
+        <option value="1">1</option> 
+        <option value="2">2</option> 
+        <option value="3">3</option> 
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Preferences</legend>
+        Room type:
+        <input type="radio" name="Standard" value="Standard" checked> Standard
+        <input type="radio" name="Business" value="Business" > Standard
+        <input type="radio" name="Suite" value="Suite" > Standard <br>
+        Bed type:
+        <input type="radio" name="King" value="King" checked> King
+        <input type="radio" name="Double Double" value="Double Double" > Standard <br>
+        <input type="checkbox" name="Smoking" value="Smoking">Smoking
+    </fieldset>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name"/> <br/>
+        <label for="Email">Email:</label>
+        <input type="text" id="Email" name="Email"/> <br/>
+        <label for="Phone">Phone:</label>
+        <input type="text" id="Phone" name="Phone"/> <br/>
+    </fieldset>
+    <input type="submit" name="btnSend" value="Submit Reservation"> 
+</body>
+</html>
